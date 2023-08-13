@@ -1,0 +1,378 @@
+:root {
+    --main-text-color: #434455;
+    --primary-font: "Roboto", sans-serif;
+    --iris: #4D5AE5;
+    --navyblue: #2E2F42;
+    --slate: #434455;
+    --white: #FFF;
+    --cloud: #F4F4FD;
+    --ocean: #404BBF;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: var(--white);
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    padding: 0;
+    margin: 0;
+}
+
+
+img {
+    display: block;
+}
+
+.page-header {
+    border-bottom: 1px solid #e7e9fc
+}
+
+.container { 
+    max-width: 1158px;
+    padding-left:  15px;
+    padding-right:  15px;
+    margin-left: auto;  
+    margin-right:  auto;
+    padding: 0 15px;
+    }
+
+    .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+
+    .header-container {
+        display: flex;
+
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 15px;
+
+    }
+    .header-address {
+        gap: 40px;
+    }
+    .list-nav-items {
+        padding: 24px 0;
+    }
+    
+button {
+    font-family: "Roboto", sans-serif;
+}
+.link {
+    text-decoration: none;
+    display: inline-block;
+}
+address {
+    font-style: normal;
+}
+.list {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+button:hover, button:focus {
+    background-color: var(--ocean);
+}
+
+footer {
+    background-color: var(--navyblue);
+}
+
+
+.link-logo {
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+    color: var(--iris);
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    margin-right: 76px;
+}
+
+.logo-style {
+    color: var(--navyblue);
+}
+.list-nav .link{
+    color: var(--navyblue);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+}
+
+
+
+.list-nav {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        padding-left: 0; 
+       
+ 
+    
+}
+
+.list-contacts .link {
+    color: var(--slate);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.link:active{
+    color: var(--ocean);
+}
+
+.link:hover, .link:focus{
+    color: var(--ocean);
+}
+
+.hero {
+    background-color: var(--navyblue);
+    display: flex;
+    padding: 188px 0;
+}
+.hero-text {
+    color: var(--white);
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    width: 496px;
+    padding-bottom: 48px;
+    max-width: 496px;
+}
+
+.hero-button {
+    color: var(--white);
+    background-color: var(--iris);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-size: 16px;
+    display: block;
+padding: 16px 32px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 169px;
+    height: 56px;
+    border: none; 
+    border-radius: 4px; 
+
+    
+}
+
+.section-abilities {
+    padding: 120px 0;
+}
+.abilities-list {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+
+}
+
+.abilities-list-item {
+    flex-basis: calc((100% - 72px) / 4);
+}
+
+.main-header {
+    color: var(--navyblue);
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    margin-bottom: 8px;
+    
+}
+.list-contacts {
+
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    
+    
+}
+
+.list-item {
+    background-color: var(--white);
+    border-radius: 0px 0px 4px 4px; 
+}
+
+.section-photos {
+    padding-bottom: 120px;
+}
+
+.photo-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.main-text {
+    color: var(--slate);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.h-two-headers {
+    color: var(--navyblue);
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 72px;
+}
+
+.our-team {
+    background-color: var(--cloud);
+    padding: 120px 0;
+}
+
+.h-our-team {
+}
+
+.our-team-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    flex-basis: calc((100% - 72px) / 4);
+}
+
+.name-role {
+    padding: 32px 0;
+}
+.our-team-card-names {
+    color: var(--navyblue);
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 8px
+}
+.our-team-card-role {
+    color: var(--slate);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.footer-text {
+    color: var(--cloud);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    width: 264px;
+ 
+}
+
+.page-footer {
+    padding-top: 101.5px;
+    justify-content: flex-start;
+    padding: 100px 0;
+   
+}
+
+.link-logo-footer {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.footer-container{
+
+    flex-direction: column;
+ 
+}
+.logo-style-footer {
+    color: var(--cloud);
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+}
+
+.portfolio-button {
+    background-color: var(--cloud);
+    color: var(--iris);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    padding: 12px 24px;
+justify-content: center;
+align-items: center;
+border: 1px solid #e7e9fc;
+border-radius: 4px; 
+}
+
+.portfolio-button:hover , .portfolio-button:focus{
+    color: var(--white);
+    border: 1px solid transparent;
+}
+.portfolio-header {
+    color: var(--navyblue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.portfolio-paragraph {
+    color: var(--slate);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 32px;
+}
+
+.portfolio-section {
+    padding-top: 96px; padding-bottom: 120px;
+}
+
+.portfolio-list-images-item {
+
+}
+
+.portfolio-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 72px;
+}
+
+.name-category {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc; 
+    border-top: none; 
+}
+.portfolio-list-images {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc((100% - 144px) / 9);
+    gap: 24px;
+    row-gap: 48px; 
+}
