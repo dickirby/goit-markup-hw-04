@@ -263,5 +263,23 @@
       </path>
       <path fill="#2e2f42" style="fill: var(--color1, #2e2f42)" d="M19.711 9.322h-1.067v1.067h1.067v-1.067z"></path>
     </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="Ellipse">
+      <g id="Ellipse">
+        <circle cx="12" cy="12" r="12" fill="#E7E9FC"></circle>
+        <circle cx="12" cy="12" r="11.5" stroke="black" stroke-opacity="0.1"></circle>
+      </g>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 8" id="close">
+      <g id="close-black-18dp (2) 1" clip-path="url(#clip0_297024_946)">
+        <path id="Vector"
+          d="M8 0.805714L7.19429 0L4 3.19429L0.805714 0L0 0.805714L3.19429 4L0 7.19429L0.805714 8L4 4.80571L7.19429 8L8 7.19429L4.80571 4L8 0.805714Z">
+        </path>
+      </g>
+      <defs>
+        <clipPath id="clip0_297024_946">
+          <rect width="8" height="8" fill="white"></rect>
+        </clipPath>
+      </defs>
+    </symbol>
   </defs>
 </svg>
