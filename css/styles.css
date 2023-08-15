@@ -326,7 +326,7 @@ padding: 16px 32px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
+    margin-bottom: 16px;
 }
 
 .page-footer {
@@ -454,12 +454,6 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cub
     
 }
 
-.icon-box:hover .svg-icon, .icon-box:focus .svg-icon {
-    fill: var(--ocean);
-   
-   
- 
-}
 
 
 
@@ -610,7 +604,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.02em;
-padding-bottom: 16px;
+
 }
 
 .overlay-text-container {
@@ -647,7 +641,7 @@ padding-bottom: 16px;
     transform: translateY(0);
 }
 .portfolio-link {
-    display: block;
+  
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-link:hover, .portfolio-link:focus {
