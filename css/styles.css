@@ -124,8 +124,13 @@ footer {
     line-height: 1.17;
     letter-spacing: 0.03em;
     margin-right: 76px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.link-logo:hover, .link-logo:focus {
+    color: var(--ocean);
+    
+}
 .logo-style {
     color: var(--navyblue);
 }
@@ -159,7 +164,7 @@ footer {
     color: var(--ocean);
 }
 
-.link:hover, .link:focus{
+.list-nav-items:hover, .list-nav-items:focus{
     color: var(--ocean);
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
